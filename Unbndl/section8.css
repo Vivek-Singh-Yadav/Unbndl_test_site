@@ -1,0 +1,171 @@
+
+.sec8 {
+  background-color: #fff9f4;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sec8 .h-blog {
+  font-size: 30px;
+  color: #303030;
+  font-weight: 700;
+  font-family: "Raleway";
+  margin: auto;
+}
+
+.sec8 .blog-container {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.sec8 .list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sec8 .blog-link {
+  color: #878787;
+  border-right: 0.5px solid #878787;
+  padding: 0rem 0.5rem;
+  cursor: pointer;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.sec8 .active {
+  color: #ea7d28;
+}
+
+.sec8 .article-wrapper {
+  overflow: hidden;
+}
+
+.sec8 .article-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.sec8 .blog {
+  display: flex;
+  gap: 1rem;
+  max-width: 400px;
+  font-family: "Open Sans";
+}
+
+.sec8 .blog-content {
+  display: none;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.5rem;
+  width: 100%;
+  min-width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+  .sec8 .h-blog {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .sec8 {
+    padding: 1rem;
+  }
+
+  .sec8 .list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.3rem;
+  }
+
+  .sec8 .blog-link {
+    font-size: 14px;
+  }
+
+  .sec8 .blog-content {
+    grid-template-columns: 1fr;
+  }
+
+  .sec8 .blog {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 1200px) {
+  .sec8 {
+    padding: 1.5rem 2rem;
+  }
+
+  .sec8 .blog-link {
+    font-size: 14px;
+  }
+
+  .sec8 .blog-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.sec8 .blog-content.activeSlide {
+  transform: translateX(0);
+  display: grid;
+}
+
+.sec8 .img-resp {
+  max-width: 100%;
+  height: auto;
+}
+
+.sec8 .blog img {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.sec8 .text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: black;
+}
+
+.sec8 .text-container h2 {
+  font-size: 1rem;
+}
+
+.sec8 .blog-footer {
+  display: flex;
+}
+
+.sec8 .blog-footer p {
+  color: #7d7d7d;
+  font-size: 12px;
+  padding: 0 0.5rem;
+}
+
+.sec8 .blog-footer p:first-child {
+  border-right: 1px solid #7d7d7d;
+}
+
+.sec8 .blog-btn {
+  background-color: #fff9f4;
+  outline: none;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.sec8 .blog-btn img {
+  height: 20px;
+}
+
+.sec8 .explore {
+  margin-right: 0;
+}
+
+.sec8 .explore img {
+  height: 40px;
+}

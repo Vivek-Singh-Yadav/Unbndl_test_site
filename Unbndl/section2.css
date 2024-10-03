@@ -1,0 +1,132 @@
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2 .emi-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 101px;
+    padding: 60px;
+    width: 100%;
+}
+
+.sec2 .emi-text h2 {
+    font-size: 29px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+}
+
+.sec2 .emi-text h2 span {
+    color: #EA7D28;
+}
+
+.sec2 .emi-text p {
+    font-size: 20px;
+    color: #000000;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rating-container>div{
+    padding: 0 5%;
+}
+
+.google-rating {
+    display: flex;
+    align-items: center;
+}
+
+.google-logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 15px;
+}
+
+.rating-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.rating-score {
+    font-size: 17px;
+    font-weight: bold;
+    color: #4D2C19;
+    line-height: 27px;
+}
+
+.star {
+    color: #FFB217;
+    ;
+    margin-right: 5px;
+    font-size: 1.4rem;
+}
+
+.verified-text {
+    font-size: 14px;
+    color: #303030;
+    width: max-content;
+}
+
+.verified-number {
+    color: #EA7D28;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.location-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    border-left: 3px solid #FADABE;
+}
+
+#city {
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    border: 1px solid #A0A0A0;
+    color: #A0A0A0;
+    font-size: 1rem;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    width: 300px;
+}
+
+.locate-btn {
+    height: 50px;
+    width: 300px;
+    background: #F8943F;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #DE6F0D;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.locate-btn:hover {
+    background-color: #e55d00;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}

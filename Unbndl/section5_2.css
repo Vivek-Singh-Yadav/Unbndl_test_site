@@ -1,0 +1,73 @@
+.sec5 .doctorsPic img{
+    width: 260px;
+    height: 260px;
+    border-radius: 20px;
+
+}
+
+.sec5.pt2{
+    background-color:  #FFF9F4;
+    
+}
+
+.sec5 .numbers{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.sec5 .numbers3{
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+
+    
+}
+
+.sec5 .numbers4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 13%;
+}
+
+.sec5 .numbers2{
+    flex: 1;
+}
+
+.sec5 .info1{
+    padding-left: 120px;
+}
+
+.sec5 .info2{
+    padding-left: 95px;
+}
+
+.sec5 .info3{
+    padding-left: 147px;
+}
+
+.sec5 .info4  {
+    padding-left: 50px;
+    font-size: 20px;
+    
+}
+
+.sec5 .button3{
+    padding-top: 43px;
+    padding-left: 50px;
+}
+
+.sec5 .buttonPart2{
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    background-color:#F8943F;
+    color: whitesmoke;
+    font-size: medium;
+    
+}
+
+.sec5 .doctorsName h3{
+    padding: 5px 0;
+}

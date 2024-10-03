@@ -1,0 +1,237 @@
+.footer .downArrow {
+    height: 10px !important;
+    width: 12px;
+  }
+  .footer hr {
+    border: none;
+    height: 2px;
+    background-color: #ececec;
+  }
+  
+  .footer .faq {
+    width: 80%;
+    margin: 35px auto 35px auto;
+    background-color: #ffffff;
+  }
+  
+  .footer .faq-questions {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .faq-heading {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .footer .faq-q {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .footer .faq-q P {
+    width: 70%;
+  }
+  .footer .faq-q img {
+    height: 12px;
+    width: 12px;
+  }
+  
+  .footer .ques-col {
+    width: 45%;
+    margin-top: 20px;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer .panel-2 {
+    height: 290px;
+    background-color: #3d2010;
+    color: #ffefe2;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    align-items: flex-start;
+  }
+  .footer .panel-2 ul p {
+    font-family: Raleway;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 15px;
+  }
+  
+  .footer .panel-2 a {
+    padding: 5px;
+    font-family: Open Sans;
+    font-size: 0.95rem;
+    font-weight: 300;
+    opacity: 0.8;
+    display: block;
+    color: #ffefe2;
+    text-decoration: none;
+  }
+  .footer .panel-2 a:hover {
+    text-decoration: underline;
+  }
+  .footer .social-links img {
+    height: 25px;
+    padding-right: 20px;
+    width: auto;
+  }
+  .footer .footer-logo {
+    background-color: #3d2010;
+    width: 100%;
+  }
+  .footer .footer-logo img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .footer .footer {
+    background-color: #3d2010;
+    width: 100%;
+    color: #9f9f9f;
+    height: 14px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1200px) {
+    .navbar-menu a {
+      font-size: 14px;
+    }
+  
+    .btn-appointment {
+      border-radius: 24px;
+    }
+    .btn-appointment img {
+      height: 25px;
+      width: 25px;
+      padding-right: 5px;
+    }
+  
+    .help-menu {
+      padding: 5px;
+      border-radius: 35px;
+    }
+  
+    .help-menu img {
+      height: 24px;
+      width: 24px;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+    .downArrow {
+      height: 8px !important;
+      width: 9px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .navbar-menu a {
+      font-size: 10px;
+    }
+  
+    .btn-appointment {
+      border-radius: 20px;
+    }
+    .btn-appointment img {
+      height: 20px;
+      width: 20px;
+      padding-right: 4px;
+    }
+  
+    .help-menu {
+      padding: 4px;
+      border-radius: 30px;
+    }
+  
+    .help-menu img {
+      height: 17px;
+      width: 17px;
+      padding-right: 3px;
+      padding-left: 3px;
+    }
+    .downArrow {
+      height: 6px !important;
+      width: 8px;
+    }
+  }
+  
+  @media (max-width: 740px) {
+    .navbar {
+      padding: 1vw 4vw;
+    }
+    .navbar-menu a {
+      font-size: 9px;
+    }
+    .navbar-menu {
+      gap: 2vw;
+    }
+    .btn-appointment {
+      border-radius: 15px;
+    }
+    .btn-appointment img {
+      height: 13px;
+      width: 13px;
+      padding-right: 2px;
+    }
+  
+    .help-menu {
+      padding: 2px;
+      border-radius: 20px;
+    }
+  
+    .help-menu img {
+      height: 13px;
+      width: 13px;
+      padding-right: 2px;
+      padding-left: 2px;
+    }
+    .downArrow {
+      height: 5px !important;
+      width: 6px;
+    }
+  }
+  
+  @media (max-width: 520px) {
+    .navbar-menu a {
+      font-size: 7px;
+    }
+    .navbar-menu {
+      gap: 1.5vw;
+    }
+    .btn-appointment {
+      border-radius: 13px;
+    }
+    .btn-appointment img {
+      height: 11px;
+      width: 11px;
+      padding-right: 1.5px;
+    }
+  
+    .help-menu {
+      padding: 1.5px;
+      border-radius: 15px;
+    }
+  
+    .help-menu img {
+      height: 11px;
+      width: 11px;
+      padding-right: 1.5px;
+      padding-left: 1.5px;
+    }
+    .downArrow {
+      height: 4px !important;
+      width: 5px;
+    }
+  }

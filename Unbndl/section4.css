@@ -1,0 +1,172 @@
+/* .sec4{
+    width: 100%;
+height: max-content;
+padding: 60px 145px 60px 145px;
+gap: 36px;
+opacity: 0px;
+
+}
+
+.sec4 .left{
+    width: 40%;
+padding: 0px 80px 24px 80px;
+gap: 92px;
+border-radius: 24px 0px 0px 0px;
+opacity: 0px;
+background: #FFF9F4;
+} */
+
+.sec4 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf3;
+    color: #333;
+}
+.sec4 .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    gap: 2rem;
+    background: white;
+}
+.sec4 .left-section {
+    background-color: #fff2e6;
+    padding: 5% 9%;
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec4 .left-section .preForm{
+    margin-bottom: 20%;
+}
+.sec4 .left-section h2{
+    color: #303030;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.sec4 .left-section p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #474747;
+}
+.sec4 .left-section form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec4 .right-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec4 .input-container {
+    margin-bottom: 15px;
+
+}
+.sec4 .right-section h2{
+    color: #303030;
+    font-size: 40px;
+}
+.sec4 .right-section p{
+    color: #303030;
+    font-size: 20px;
+}
+.sec4 .input-container input, .sec4 select{
+    width: 100%;
+    height: 60px;
+    font-size: larger;
+    border: 1.62px solid #B0B0B0;
+    background: #FFFFFF;
+    color: #5E5E5E;
+    border-radius: 50px;
+}
+.sec4 label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.sec4 input, .sec4 select {
+    width: 100%;
+    padding: 10px;
+    /* border-radius: 5px; */
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+.sec4 button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.sec4 .safety-protocols {
+    background: #FBF5FF;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+
+.sec4 .safety-protocols_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+}
+
+.sec4 .safety-protocols img {
+    /* width: 100px; */
+    height: 100%;
+    width: auto;
+}
+.sec4 .info-section {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.sec4 .info-box {
+    width: 45%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.sec4 .info-box>img {
+    width: 75px;
+    margin-bottom: 15px;
+}
+
+.sec4 .info-box a, .sec4 .right-section a{
+    color: #4D2C19;
+    font-size: 17px;
+    font-weight: 600;
+}
+.sec4 .info-box a img, .sec4 .right-section a img{
+    height: 13px;
+    margin-left: 10px;
+}
+.sec4 .info-box a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec4 .info-box.second{
+    background: #E1F2EE;
+}

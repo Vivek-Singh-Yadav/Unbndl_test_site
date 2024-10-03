@@ -1,0 +1,46 @@
+.sec6 .slider {
+	--totSlides: 7;
+	--slideWidth: 200px;
+	--slideHeight: 50px;
+	--animationSpeed: calc(2s * var(--totSlides));
+	height: var(--slideHeight);
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+   
+    
+}
+
+.sec6 .slider .slides-track {
+	animation: scroll var(--animationSpeed) linear infinite;
+	display: flex;
+	width: calc(var(--slideWidth) * var(--totSlides) * 2);
+    
+}
+
+.sec6 .slider .slide {
+	height: 100px;
+	width: var(--slideWidth);
+	overflow: hidden;
+    background-color: #FFEFE2;
+}
+
+.sec6 .slider .slide img {
+	height: 40px;
+	width: 164px;
+	max-width: 100%;
+	object-fit: contain;
+    padding-top: 10px;
+    
+}
+
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(var(--slideWidth) * var(--totSlides) * -1));
+	}
+}

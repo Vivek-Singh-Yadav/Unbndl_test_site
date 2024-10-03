@@ -1,0 +1,137 @@
+.sec5{
+    padding: 60px 0;
+    font-family:'Poppins';
+  }
+  .sec5 .flt-left{
+    float:left;
+    padding-left: 50px;
+  }
+  .sec5 .carousel{
+    width:100%;
+    margin:auto;
+  }
+  .sec5 .row{
+    flex: 1;
+    width:100%;
+    padding:0;
+    overflow:hidden;
+    margin:auto;
+    position: relative;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    height: max-content;
+    padding: 0;
+  }
+  .sec5 .row.flt-left{
+    width: 100%;
+    flex: none;
+  }
+  .sec5 .row::-webkit-scrollbar{
+    display: none;
+  }
+  .sec5 .row-container{
+    transition:0.5s;
+    height: max-content;
+    display: flex;
+    gap: 10px;
+    padding: 0 50px
+}
+  .sec5 .container{
+    width:368px;
+    float:left;
+    display:inline;
+  }
+  .sec5 .container .img-container{
+    height: 400px;
+  }
+  .sec5 .container>div img{
+    height: 100%;
+  }
+  .sec5 .clear{
+    clear:both;
+  }
+  .sec5 .controls{
+    width:100%;
+    margin:auto;
+  }
+  .sec5 button{
+    border:none;
+    padding:10px 20px;
+    color:white;
+    background:#21252b;
+    font-weight:bold;
+    outline:none;
+    border-radius:3px;
+    height:200px;
+    postion:relative;
+  }
+
+  .sec5 .partHeading{
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #303030;
+  }
+  
+  .sec5 .rowAbove{
+    width: 50%;
+  }
+
+  .sec5 .namecolor{
+    color: #4D2C19;
+    margin-top: 15px;
+    font-size: small;
+  }
+
+  .sec5 .workcolor{
+    color: #EA7D28;
+    font-weight: bold;
+  }
+
+
+
+  .people-page {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    }
+     .people-page .main-container {
+      position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 73%;
+    }
+     .people-page .girl-1 {
+    width: 30%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    }
+     .people-page .girl-2 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 30%;
+    }
+     .people-page .boy-1 {
+    width: 40%;
+    border-radius: 10px;
+    }
+     .people-page .people {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    }
+     .people-page .left-arrow {
+    height: 70px;
+    }
+     .people-page .right-arrow {
+    height: 70px;
+    }
